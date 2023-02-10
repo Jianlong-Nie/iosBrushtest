@@ -13,6 +13,7 @@
 		4DB341DA29949F1300876696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB341D829949F1300876696 /* Main.storyboard */; };
 		4DB341DC29949F1400876696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB341DB29949F1400876696 /* Assets.xcassets */; };
 		4DB341DF29949F1400876696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB341DD29949F1400876696 /* LaunchScreen.storyboard */; };
+		4DB341E729949F3000876696 /* HollowBrushView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB341E629949F3000876696 /* HollowBrushView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4DB341DB29949F1400876696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DB341DE29949F1400876696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DB341E029949F1400876696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB341E629949F3000876696 /* HollowBrushView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollowBrushView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				4DB341DB29949F1400876696 /* Assets.xcassets */,
 				4DB341DD29949F1400876696 /* LaunchScreen.storyboard */,
 				4DB341E029949F1400876696 /* Info.plist */,
+				4DB341E629949F3000876696 /* HollowBrushView.swift */,
 			);
 			path = brush;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB341E729949F3000876696 /* HollowBrushView.swift in Sources */,
 				4DB341D729949F1300876696 /* ViewController.swift in Sources */,
 				4DB341D329949F1300876696 /* AppDelegate.swift in Sources */,
 				4DB341D529949F1300876696 /* SceneDelegate.swift in Sources */,

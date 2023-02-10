@@ -11,7 +11,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let hollowBrushView = HollowBrushView()
+//        hollowBrushView.backgroundColor=UIColor.red;
+        hollowBrushView.frame=view.frame;
+        view.addSubview(hollowBrushView)
     }
 
 
